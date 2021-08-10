@@ -8,7 +8,7 @@ export default {
     host: '0.0.0.0'
   },
 
-  srcDir: './src/',
+  srcDir: '',
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
