@@ -10,7 +10,7 @@ export default {
 
   srcDir: './src/',
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: fasle,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
