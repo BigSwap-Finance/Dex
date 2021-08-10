@@ -4,13 +4,11 @@ import path from 'path'
 const lessVariables = lessToJson('src/styles/variables.less')
 
 export default {
-  server: {
-    host: '0.0.0.0'
-  },
+  target: 'server',
 
-  srcDir: '',
+  srcDir: 'client/',
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
