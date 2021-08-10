@@ -2,7 +2,7 @@
   "name": "raydium-ui",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "yarn nuxt client", // this sets client as the rootDir
     "build": "nuxt build",
     "build-analyze": "nuxt build --analyze",
     "start": "nuxt start",
