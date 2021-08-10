@@ -2,7 +2,6 @@
   "name": "raydium-ui",
   "version": "1.0.0",
   "scripts": {
-    "dev": "yarn nuxt client", 
     "build": "nuxt build",
     "build-analyze": "nuxt build --analyze",
     "start": "nuxt start",
